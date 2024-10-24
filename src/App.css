@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.App {
+  text-align: center;
+}
+body{
+  background-image: url('../public/images/backgroundImg.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+form{
+  display: inline-block;
+  background: linear-gradient(180deg,#0b0b0b,#02085c);
+  margin-top: 5px;
+  border-radius: 10px;
+}
+form label{
+  display: inline-block;
+  width: 100px;
+  color: #fff;
+}
+.capital{
+  text-transform: uppercase;
+}
+form div{
+  margin: 10px;
+}
+button{
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border-radius: 50px;
+  display: inline-block;
+  transition: transform 1s ease;
+  cursor: pointer;
+}
+button:hover{
+  box-shadow: 1px 1px 15px #fdfdfd;
+  transform: scale(1.1);
+  background-color: #141251;
+  color: #fff;
+}
+button:active{
+  box-shadow: 0px 0px 10px #d8d110;
+  transform: scale(1.1);
+  background-color: #ba3131;
+  color: #fff;
+}
+.result{
+  width: 300px;
+  transition: transform 1s ease;
+}
+
+.result:hover{
+  transform: scale(1.1);
+}
+legend{
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 5px;
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+fieldset{
+  margin: 10px;
+}
